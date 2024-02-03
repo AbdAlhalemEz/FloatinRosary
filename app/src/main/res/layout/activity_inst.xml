@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="ha.tw.masbaha.inst"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:layout_gravity="top"
+        android:gravity="top"
+
+
+        >
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20px"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="ca-app-pub-8157110153359056/5084082125"></com.google.android.gms.ads.AdView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bc"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="150px"
+                android:paddingTop="90px"
+                android:paddingRight="150px"
+                android:text="تعليمات"
+                android:textStyle="bold"
+                android:textSize="22dp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="150px"
+                android:paddingTop="30px"
+                android:paddingRight="150px"
+                android:text="1 قم باختيار حجم المسبحة من الشريط المنزلق\n2 قم بالسماح للمسبحة بالعوم لتعمل مع البرامج الاخرى\n 3 قم باختيار اللون اللذي تحب\n 4 اضغط زر التعويم وابدأ التسبيح\n\nلاغلاق المسبحة: اضغط لمدة ثانيتين عليها ثم اسحبها للأسفل* \n لتصفير المسبحة: اضغط عليها لمدة 6 ثواني"
+                android:textStyle="bold"
+                android:textSize="14dp"
+
+                />
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="150px"
+                android:paddingRight="150px"
+                android:paddingTop="50px"
+                android:text="صدقة جارية باذن الله عن المرحوم عبد الحليم عزالدين  "
+                android:textStyle="bold"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="150px"
+                android:paddingRight="150px"
+                android:paddingTop="50px"
+                android:text="تم التطوير بواسطة: \nHA.OverFlow  "
+                android:textStyle="bold"
+                android:textSize="20dp"
+
+                />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@style/Widget.AppCompat.RatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5"
+                android:layout_marginBottom="120px"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                app:adSize="SMART_BANNER"
+                app:adUnitId="ca-app-pub-8157110153359056/5084082125"></com.google.android.gms.ads.AdView>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">المسبحة العائمة</string>
+
+    <string-array name="languages">
+        <item>language</item>
+        <item>عربي</item>
+        <item>English</item>
+        <item>France</item>
+        <item>Türkçe</item>
+        <item>Indonesia</item>
+        <item>اردو</item>
+
+    </string-array>
+</resources>

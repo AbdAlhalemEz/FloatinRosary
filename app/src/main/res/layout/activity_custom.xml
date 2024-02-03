@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="ha.tw.masbaha.custom">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        >
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top"
+        android:foregroundGravity="top"
+        android:layout_marginBottom="20px"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-8157110153359056/5084082125"></com.google.android.gms.ads.AdView>
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:background="@drawable/txt"
+            android:gravity="center"
+            android:paddingLeft="100px"
+            android:paddingRight="100px"
+            android:text="اكتب التسبيحة الَتي تريد ومن ثم اختر عدد التسبيحات\n ثم ابدأ التسبيح"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:background="#51BDB0B0"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:paddingRight="60px"
+        android:text="لا اله الا  الله محمد رسول الله"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="50px"/>
+
+    <EditText
+        android:id="@+id/Pass"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:background="#51BDB0B0"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:paddingRight="60px"
+        android:text="100" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="307dp"
+            android:layout_height="96dp"
+            android:background="@drawable/vv"
+            android:text="بدأ التسبيح"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="100px"
+            android:foregroundGravity="bottom"
+
+            app:adSize="SMART_BANNER"
+            app:adUnitId="ca-app-pub-8157110153359056/5084082125"></com.google.android.gms.ads.AdView>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
